@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {useState} from 'react';
 import { getToken, onMessageListener } from './firebase';
-import {Button, Row, Col, Toast} from 'react-bootstrap';
+import {Button, Toast} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
